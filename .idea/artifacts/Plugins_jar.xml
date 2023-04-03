@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="Plugins:jar">
+    <output-path>$PROJECT_DIR$/../../../server/plugins</output-path>
+    <root id="archive" name="Plugins.jar">
+      <element id="module-output" name="Plugins" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../Java/buildtools/Spigot/Spigot-API/target/spigot-api-1.19.4-R0.1-SNAPSHOT-shaded.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../Java/buildtools/CraftBukkit/target/craftbukkit-1.19.4-R0.1-SNAPSHOT-bootstrap.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

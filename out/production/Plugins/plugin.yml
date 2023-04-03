@@ -1,0 +1,23 @@
+name: AelyreTest
+version: 1.0
+author: Arthur SIMONIN
+main: fr.arthur.aelyre.test.Main
+api-version: 1.17
+
+commands:
+  test:
+    description: "Test command"
+  getPosition:
+    description: "Get the position of the player"
+  gamemode:
+    description: "Change the gamemode of the player"
+
+    aliases: [gm]
+
+  near:
+    description: "get the nearby entities"
+    aliases: [nearby]
+
+  minesweeper:
+    description: "Play minesweeper"
+    aliases: [ms]
